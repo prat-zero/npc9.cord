@@ -1,0 +1,7 @@
+// CREATED AT <DATE>, PACKAGE VERSION: <VERSION> (FORMAT: 1)
+
+// imports
+import { event } from "./@event";
+
+@event("<CAMELCASE_EVENT>")
+class $<NORMAL_EVENT> {}
