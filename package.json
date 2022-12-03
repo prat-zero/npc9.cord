@@ -1,0 +1,33 @@
+{
+  "name": "npc9.cord",
+  "version": "1.0.0",
+  "description": "The free and open-source alternative to MEE6, written in TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node . | pino-pretty -i pid,hostname -t yyyy-mm-dd HH:MM:ss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prat-zero/npc9.cord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prat-zero/npc9.cord/issues"
+  },
+  "homepage": "https://github.com/prat-zero/npc9.cord#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "discord.js-light": "^4.10.0",
+    "dotenv": "^16.0.3",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1",
+    "tslib": "^2.4.1"
+  }
+}
